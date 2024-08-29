@@ -1,0 +1,17 @@
+package lista05;
+import java.util.Scanner;
+public class BissextoDescubra {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		int ano, bis;
+		System.out.println("Insira seu ano de nascimento:");
+		ano = ler.nextInt ();
+		bis = ano%4;
+		if (bis == 0) {
+			System.out.println("Você nasceu em um ano bissexto =)");
+		}else{
+			System.out.println("Você não nasceu em um ano bissexto =(");
+		}
+		ler.close ();
+	}
+}
