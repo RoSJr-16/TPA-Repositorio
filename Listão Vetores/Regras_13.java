@@ -12,23 +12,28 @@ public class Regras_13 {
 			a[i] = ler.nextInt();
 		}
 		
+		//Condição A
 		for (i=0; i<10; i++) {
-			//Condição A
+			
 			ai = a[i]%2;
 			if(ai == 0)  {
 				b[i] = b[i]+1;
-				System.out.print(b[i]);
 			}
 		}
 		
+		//Condição B
 		for (i=0; i<10; i++) {
-			//Condição B
 			ai = a[i]%1;
 			if(ai == 0)  {
 				b[i] = b[i]+0;
-				System.out.print(b[i]);
 			}
 		}
+		
+		System.out.print("B = [");
+		for (i=0; i<10;i++) {
+			System.out.print(b[i]+ " ");
+		}
+		System.out.print("]\n");
 
 		ler.close();
 		
