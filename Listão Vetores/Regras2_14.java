@@ -5,7 +5,7 @@ public class Regras2_14 {
 		int a[] = new int [10];
 		int b[] = new int [10];
 		int c[] = new int [10];
-		int i, j;
+		int i;
 		
 		//Vetor A
 		for(i=0; i<10; i++) {
